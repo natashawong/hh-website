@@ -7,7 +7,7 @@ import { COLORS } from '../Enums/Enums';
 export default class Header extends Component {
     render() {
         return (
-            <div style={{backgroundColor: this.props.pageHeader ? COLORS.LIGHT_GREEN : null, paddingBottom: 75}}>
+            <div style={{backgroundColor: this.props.pageHeader ? COLORS.LIGHT_GREEN : null, paddingBottom: this.props.pageHeader ? null : 75}}>
                 <span className="logo">
                     <img src={this.props.pageHeader ? whiteLogo : logo} alt={"logo"} style={{height: 30}}/>
                 </span>
@@ -26,7 +26,7 @@ export default class Header extends Component {
                     this.props.pageHeaderTitle && 
                     <div>
                         <div className="pageHeaderTitle">
-                            <p style={{color: "white", fontWeight: "bold"}}>{this.props.pageHeaderTitle}</p>
+                            <p style={{color: "white", fontWeight: "bold", margin: 0}}>{this.props.pageHeaderTitle}</p>
                         </div>
 
                         <hr style={{
@@ -35,7 +35,7 @@ export default class Header extends Component {
                             border: 0,
                         }}/>
                         <div className="pageHeaderSubtitle">
-                            <p style={{color: "white", fontWeight:"bold", size: 32}}>{this.props.pageHeaderSubtitle}</p>
+                            <p style={{color: "white", fontWeight:"bold", textSize: 32, margin: 0}}>{this.props.pageHeaderSubtitle}</p>
                         </div>
                     </div>
                 }

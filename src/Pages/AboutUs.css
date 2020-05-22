@@ -1,0 +1,23 @@
+.container {
+    text-align: end;
+}
+
+.img {
+    width: 80%;
+    height: 60%;
+    padding: 40px 200px 40px 40px;
+}
+
+.bigText {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: xx-large;
+    z-index: 1;
+    position: absolute;
+    top: 105px;
+    right: 60px;
+    color: white;
+    font-family: ocr-b-std;
+    font-size: 70px;
+}
+

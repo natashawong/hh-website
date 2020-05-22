@@ -16,14 +16,14 @@
 .buttons a {
     text-decoration: none;
     color: black;
-    padding-left: 40px;
+    padding-right: 30px;
     font-weight: bold;
 }
 
 .pageHeaderButtons a {
     text-decoration: none;
     color: white;
-    padding-right: 15px;
+    padding-right: 30px;
     font-weight: bold;
 }
 

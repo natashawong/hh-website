@@ -15,7 +15,6 @@ export default class Home extends Component {
                 <br />on the deep questions in life.</p>
                 <img src={arrowDown} alt={arrowDown} style={{height: 15, paddingTop: 20}}/>
             </div>
-            {// TO DO: add the content grid}
             <Footer/>
             </div>
         )

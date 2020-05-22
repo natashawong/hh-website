@@ -23,7 +23,7 @@ export default class Header extends Component {
 
 
                 {
-                    this.props.pageHeader &&
+                    this.props.pageHeaderTitle && 
                     <div>
                         <div className="pageHeaderTitle">
                             <p style={{color: "white", fontWeight: "bold"}}>{this.props.pageHeaderTitle}</p>

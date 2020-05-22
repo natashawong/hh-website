@@ -7,7 +7,7 @@ import { COLORS } from '../Enums/Enums';
 export default class Header extends Component {
     render() {
         return (
-            <div style={{backgroundColor: this.props.pageHeader ? COLORS.LIGHT_GREEN : null}}>
+            <div style={{backgroundColor: this.props.pageHeader ? COLORS.LIGHT_GREEN : null, paddingBottom: 75}}>
                 <span className="logo">
                     <img src={this.props.pageHeader ? whiteLogo : logo} alt={"logo"} style={{height: 30}}/>
                 </span>

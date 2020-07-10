@@ -8,9 +8,13 @@ import {
 
 import AboutUs from './Pages/AboutUs';
 import Home from './Pages/Home';
-import Happenings from './Pages/Subpages/Happenings';
-import MissionVision from './Pages/Subpages/MissionVision';
-import Read from './Pages/Subpages/Read';
+import Happenings from './Pages/IndPages/Happenings';
+import Archives from './Pages/Archives';
+import MissionVision from './Pages/IndPages/MissionVision';
+import Read from './Pages/IndPages/Read';
+import Vol2 from './Pages/IndPages/Archives';
+import Partner from './Pages/IndPages/Partner';
+import Contact from './Pages/IndPages/Contact';
 
 // TO DO: add a NoMatch page for errors
 
@@ -18,25 +22,23 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/aboutus'>
-          <AboutUs/>
-        </Route>
+        {/* About Us */}
+        <Route path='/aboutus' component={AboutUs}/>
+        {/* > mission&vission  */}
+        <Route path='/aboutus/missionvission' component={MissionVision}/>
 
-        <Route path='/happenings'>
-          <Happenings/>
-         </Route>
+        {/* Archives */}
+        <Route path='/archives' component={Archives}/>
+        {/* > vol2  */}
+        <Route path='/archives/volume2' component={Vol2}/>
 
-        <Route path='/missionvission'>
-          <MissionVision/>
-        </Route>
+        {/* Individual Pages */}
+        <Route path='/happenings' component={Happenings}/>
+        <Route path='/read' component={Read}/>
+        <Route path='/partner' component={Partner}/>
+        <Route path='/contact' component={Contact}/>
 
-        <Route path='/read'>
-          <Read/>
-        </Route>
-
-        <Route path='/'>
-          <Home/>
-        </Route>
+        <Route path='/' component={Home}/>
 
       </Switch>
 

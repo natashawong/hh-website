@@ -1,18 +1,17 @@
 .container {
-    text-align: end;
+    z-index: 1;
 }
 
 .img {
     width: 80%;
-    height: 60%;
-    padding: 40px 200px 40px 40px;
+    padding: 40px 180px 40px 40px;
 }
 
 .bigText {
     margin-top: 0;
     margin-bottom: 0;
     font-size: xx-large;
-    z-index: 1;
+    z-index: 3;
     position: absolute;
     top: 105px;
     right: 60px;

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/footer';
 import { SPACING } from '../Enums/Enums';
-import groupPic from '../Assets/groupPic.png';
+import pinkSkies from '../Assets/pinkskies.png';
 import { COLORS } from '../Enums/Enums';
 import './Subpage.css';
 
@@ -15,8 +15,8 @@ export default class AboutUs extends Component {
             <link rel="stylesheet" href="https://use.typekit.net/umq8csv.css"></link>
             <Header pageHeader={true}/>
             <div className = "container" style={{backgroundColor: COLORS.LIGHT_GREEN}}>
-                <img className="img" src={groupPic} alt={groupPic} />
-                <p className="bigText">ABOUT US</p>
+                <img className="img" src={pinkSkies} alt={pinkSkies}/>
+                <p className="bigText">ARCHIVES</p>
             </div>
             <Footer/>
             </div>

@@ -28,13 +28,17 @@ export default class Home extends Component {
             {image: skyrug, title: "what do we do when the rug is pulled out from underneath us?", link: '/read'},
             {image: hawaiilove, title: "love in the time of coronavirus", link: '/read'},
             {image: qanc, title: "queerness and christianity", link: '/read'},
-        ]
-        const rowTwo = [
             {image: ppllaunch, title: "launch symposium", link: '/happenings'},
             {image: vol2, title: "read volume 2", link: '/archives'},
             {image: whitelogo, title: "join hearhere", link: '/contact', blackText: true},
             {image: veritas, title: "veritas forum", externalLink: 'http://www.veritas.org/', blackText: true},
         ]
+        // const rowTwo = [
+        //     {image: ppllaunch, title: "launch symposium", link: '/happenings'},
+        //     {image: vol2, title: "read volume 2", link: '/archives'},
+        //     {image: whitelogo, title: "join hearhere", link: '/contact', blackText: true},
+        //     {image: veritas, title: "veritas forum", externalLink: 'http://www.veritas.org/', blackText: true},
+        // ]
 
         return(
             <div>
@@ -47,7 +51,7 @@ export default class Home extends Component {
             </div>
             <div style={{padding: SPACING.SPACING_MEDIUM}}/>
             <ContentGrid squareObject={rowOne}/>
-            <ContentGrid squareObject={rowTwo}/>
+            {/* <ContentGrid squareObject={rowTwo}/> */}
             <div style={{padding: SPACING.SPACING_LARGE}}/>
             </div>
 

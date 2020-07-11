@@ -11,7 +11,7 @@ import Happenings from './Pages/IndPages/Happenings';
 import Archives from './Pages/Archives';
 import MissionVision from './Pages/IndPages/MissionVision';
 import Read from './Pages/IndPages/Read';
-import Vol2 from './Pages/IndPages/Archives';
+import Vol2 from './Pages/IndPages/Volume2';
 import Partner from './Pages/IndPages/Partner';
 import Contact from './Pages/IndPages/Contact';
 

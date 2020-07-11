@@ -6,9 +6,13 @@ import {SPACING} from '../../Enums/Enums';
 export default class Happenings extends Component {
     render() {
         return(
+            <div>
             <div style={{padding: SPACING.PAGE_SPACE}}>
                 <Header pageHeader={true} pageHeaderTitle={"WHAT'S HAPPENING"} pageHeaderSubtitle={"Launch Symposium vol. 3: decolonizing christianity"}/>
-                <Footer/>
+            </div>
+            <div className="footerStyling">
+            <Footer/>
+            </div>
             </div>
         )
     }

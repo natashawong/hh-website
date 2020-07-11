@@ -8,6 +8,7 @@ import './Home.css';
 export default class Home extends Component {
     render() {
         return(
+            <div>
             <div style={{padding: SPACING.PAGE_SPACE}}>
             <Header/>
             <div className="bigContainer">
@@ -15,7 +16,10 @@ export default class Home extends Component {
                 <br />on the deep questions in life.</p>
                 <img src={arrowDown} alt={arrowDown} style={{height: 15, paddingTop: 20}}/>
             </div>
+            </div>
+            <div className="footerStyling">
             <Footer/>
+            </div>
             </div>
         )
     }

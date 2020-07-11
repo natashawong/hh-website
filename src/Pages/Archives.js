@@ -11,6 +11,7 @@ import './Subpage.css';
 export default class AboutUs extends Component {
     render() {
         return(
+            <div>
             <div style={{padding: SPACING.PAGE_SPACE}}>
             <link rel="stylesheet" href="https://use.typekit.net/umq8csv.css"></link>
             <Header pageHeader={true}/>
@@ -18,7 +19,10 @@ export default class AboutUs extends Component {
                 <img className="img" src={pinkSkies} alt={pinkSkies}/>
                 <p className="bigText">ARCHIVES</p>
             </div>
+            </div>
+            <div className="footerStyling">
             <Footer/>
+            </div>
             </div>
         )
     }

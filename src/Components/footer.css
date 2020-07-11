@@ -13,3 +13,45 @@
 .bg-light {
   background-color: #074723
 }
+
+.footer {
+  height: 200px;
+  background-color: #074723;
+}
+
+.footerContainer {
+  padding: 30px;
+  box-sizing: border-box;
+  color: white;
+  box-sizing: inherit;
+}
+
+#creditText {
+  display: flex;
+  font-size: 11px;
+  padding-top: 60px;
+  color: white;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#outsideLinks {
+  margin-top: 20px;
+  float: right;
+}
+
+#outsideLinks a {
+  margin-left: 30px;
+  padding: 6px 15px 6px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.footerStyling {
+  position: absolute;
+  height: 250px;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+}

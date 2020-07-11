@@ -7,10 +7,14 @@ import ContentGrid from '../../Components/contentGrid';
 export default class Read extends Component {
     render() {
         return(
+            <div>
             <div style={{padding: SPACING.PAGE_SPACE}}>
                 <Header pageHeader={true} pageHeaderTitle={"READ"} pageHeaderSubtitle={"What do we do when the rug is pulled out from underneath us?"}/>
                 <ContentGrid/>
-                <Footer/>
+            </div>
+            <div className="footerStyling">
+            <Footer/>
+            </div>
             </div>
         )
     }

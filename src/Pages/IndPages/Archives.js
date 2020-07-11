@@ -4,6 +4,9 @@ import Footer from '../../Components/footer';
 import {SPACING} from '../../Enums/Enums';
 
 export default class Vol2 extends Component {
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
     render() {
         return(
             <div>

@@ -5,5 +5,7 @@ export const COLORS = {
 
 export const SPACING = {
     PAGE_SPACE: "30px 30px 0px 30px",
+    SPACING_MEDIUM: 30,
+    SPACING_LARGE: 80,
 }
 

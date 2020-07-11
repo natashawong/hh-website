@@ -22,22 +22,22 @@ function App() {
     <Router>
       <Switch>
         {/* About Us */}
-        <Route path='/aboutus' component={AboutUs}/>
+        <Route exact path='/aboutus' component={AboutUs}/>
         {/* > mission&vission  */}
-        <Route path='/aboutus/missionvission' component={MissionVision}/>
+        <Route exact path='/aboutus/missionvission' component={MissionVision}/>
 
         {/* Archives */}
-        <Route path='/archives' component={Archives}/>
+        <Route exact path='/archives' component={Archives}/>
         {/* > vol2  */}
-        <Route path='/archives/volume2' component={Vol2}/>
+        <Route exact path='/archives/volume2' component={Vol2}/>
 
         {/* Individual Pages */}
-        <Route path='/happenings' component={Happenings}/>
-        <Route path='/read' component={Read}/>
-        <Route path='/partner' component={Partner}/>
-        <Route path='/contact' component={Contact}/>
+        <Route exact path='/happenings' component={Happenings}/>
+        <Route exact path='/read' component={Read}/>
+        <Route exact path='/partner' component={Partner}/>
+        <Route exact path='/contact' component={Contact}/>
 
-        <Route path='/' component={Home}/>
+        <Route exact path='/' component={Home}/>
 
       </Switch>
 

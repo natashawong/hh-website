@@ -1,6 +1,11 @@
 import React, { Component } from "react";
-import { render } from "react-dom";
-import { Grid, Row, Col } from "react-bootstrap";
+import PropTypes from 'prop-types';
+
+import { Link } from "react-router-dom";
+import arrowRightWhite from '../Assets/whiteArrowRight.png';
+import arrowRightBlack from '../Assets/arrowRight.png';
+import { SPACING } from "../Enums/Enums";
+import './contentGrid.css';
 
 class ContentGrid extends Component {
   // Sorry Jaden! This doesn't show up correctly on my screen either :/ it's like missing css or smth? I think there's something wrong w my bootstrap install? unsure
@@ -77,6 +82,40 @@ class ContentGrid extends Component {
   //   return this.GridLayout();
   // }
 
+  // ONLY DO 4 and then import this component again!!
+  render() {
+    return(
+      <div  className="contentGrid" style={{padding: SPACING.PAGE_SPACE}}>
+        {this.props.squareObject.map(square => (
+          // This is horrible, please fix later
+
+          <div className="gridContainer">
+            {square.externalLink ? 
+              <a href={square.externalLink} style={{textDecoration: "none", color: "black"}}>
+              <img src={square.image} alt={"option"} className="thumbnail" style={{border: square.blackText ? "1px solid black" : null}}/>
+              <p id="title" style={{color: square.blackText ? "black" : "white"}}>{square.title} 
+              {/* only have the arrow thingy if there's title text */}
+              {square.title == "" ? null : <img src={square.blackText ? arrowRightBlack : arrowRightWhite} style={{width: 10, paddingLeft: 5}}/>}
+              </p>
+              </a>
+            :
+              <Link to={square.link} style={{textDecoration: "none", color: "black"}}>
+              <img src={square.image} alt={"option"} className="thumbnail" style={{border: square.blackText ? "1px solid black" : null}}/>
+              <p id="title" style={{color: square.blackText ? "black" : "white"}}>{square.title} 
+              {/* only have the arrow thingy if there's title text */}
+              {square.title == "" ? null : <img src={square.blackText ? arrowRightBlack : arrowRightWhite} style={{width: 10, paddingLeft: 5}}/>}
+              </p>
+              </Link>
+            }
+          </div>
+        ))}
+      </div>
+    )
+  }
+}
+
+ContentGrid.propTypes = {
+  squareObject: PropTypes.array.isRequired,
 }
 
 export default ContentGrid;

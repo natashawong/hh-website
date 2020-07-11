@@ -48,6 +48,8 @@
 }
 
 .footerStyling {
+  /* CHANGE POSITION ABSOLUTE TO SOMETHING ELSE ONCE ALL PAGES HAVE ENOUGH CONTENT!! */
+  /* FOR NOW: position: static if page has enough content */
   position: absolute;
   height: 250px;
   left: 0;

@@ -27,7 +27,7 @@ export default class Happenings extends Component {
                     </div>
                     <div style={{padding: SPACING.SPACING_MEDIUM}}/>
                     <div className="section">
-                        <iframe height="450" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJz7tUZb8xw4ARQepMEt7OSHc&key=AIzaSyB7yAK7alt66eCwiShxiJ9917XNpfrCF6o" allowfullscreen></iframe>
+                        <iframe height="450" frameborder="0" src={"https://www.google.com/maps/embed/v1/place?q=place_id:ChIJz7tUZb8xw4ARQepMEt7OSHc&key=" + process.env.REACT_APP_GOOGLE_MAPS_KEY} allowfullscreen></iframe>
                         <p><b>Edmunds Ballroom</b></p>
                     </div>
                 </div>

@@ -26,7 +26,7 @@ export default class AboutUs extends Component {
             {title: "", image: emptySquare, link: '/aboutus'},
             {title: "", image: emptySquare, link: '/aboutus'},
         ]
-        return(
+        return (
             <div>
             <div style={{padding: SPACING.PAGE_SPACE}}>
             <link rel="stylesheet" href="https://use.typekit.net/umq8csv.css"></link>

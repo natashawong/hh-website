@@ -64,7 +64,7 @@ class Footer extends Component {
           <p>Built by the hearhere web development team</p>
         </div>
       </div>
-    );
+    )
   }
 }
 

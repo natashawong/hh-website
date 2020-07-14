@@ -32,7 +32,7 @@ export default class Read extends Component {
             {image: happy, title: "we must imagine ourseleves happy", blackText: true, externalLink: 'https://medium.com/@hearhere.journal/we-must-imagine-ourselves-happy-99574c2512d3'},
             {image: doctors, title: "if God is good, why the virus?", externalLink: 'https://medium.com/@hearhere.journal/if-god-is-good-why-the-virus-c69a16f25e14'},
         ]
-        return(
+        return (
             <div>
             <div style={{padding: SPACING.PAGE_SPACE}}>
                 <Header pageHeader={true} pageHeaderTitle={"READ"} pageHeaderSubtitle={"What do we do when the rug is pulled out from underneath us?"}/>

@@ -8,7 +8,7 @@ export default class Partner extends Component {
         window.scrollTo(0,0);
     }
     render() {
-        return(
+        return (
             <div>
             <div style={{padding: SPACING.PAGE_SPACE}}>
                 <Header pageHeader={true} pageHeaderTitle={"PARTNER"} pageHeaderSubtitle={"Host and event with hearhere"}/>

@@ -34,7 +34,7 @@ export default class Home extends Component {
             {image: veritas, title: "veritas forum", externalLink: 'http://www.veritas.org/', blackText: true},
         ]
 
-        return(
+        return (
             <div>
             <div style={{padding: SPACING.PAGE_SPACE}}>
             <Header/>

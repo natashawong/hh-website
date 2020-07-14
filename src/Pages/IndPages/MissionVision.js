@@ -8,7 +8,7 @@ export default class MissionVission extends Component {
         window.scrollTo(0,0);
     }
     render() {
-        return(
+        return (
             <div>
             <div style={{padding: SPACING.PAGE_SPACE}}>
                 <Header pageHeader={true} pageHeaderTitle={"ABOUT"} pageHeaderSubtitle={"vision & mission"}/>

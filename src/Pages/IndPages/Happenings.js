@@ -10,7 +10,7 @@ export default class Happenings extends Component {
         window.scrollTo(0,0);
     }
     render() {
-        return(
+        return (
             <div>
             <div style={{padding: SPACING.PAGE_SPACE}}>
                 <Header pageHeader={true} pageHeaderTitle={"WHAT'S HAPPENING"} pageHeaderSubtitle={"Launch Symposium vol. 3: decolonizing christianity"}/>

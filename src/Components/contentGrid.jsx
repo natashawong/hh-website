@@ -81,8 +81,6 @@ class ContentGrid extends Component {
   // render() {
   //   return this.GridLayout();
   // }
-
-  // ONLY DO 4 and then import this component again!!
   render() {
     return(
       <div  className="contentGrid" style={{padding: SPACING.PAGE_SPACE}}>

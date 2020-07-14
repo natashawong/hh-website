@@ -10,7 +10,7 @@ export default class Vol2 extends Component {
         window.scrollTo(0,0);
     }
     render() {
-        return(
+        return (
             <div>
             <div style={{padding: SPACING.PAGE_SPACE}}>
                 <Header pageHeader={true} pageHeaderTitle={"ARCHIVES"} pageHeaderSubtitle={"Volume 2: harmony launch symposium"}/>

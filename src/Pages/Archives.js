@@ -10,7 +10,6 @@ import { COLORS } from '../Enums/Enums';
 
 import pinkSkies from '../Assets/pinkskies.png';
 import whitelogo from '../Assets/whitelogo.png';
-import vol2 from '../Assets/vol2.jpeg';
 import emptySquare from '../Assets/emptySquare.png';
 
 // NOTE: ALL SUBPAGE IMAGES ARE CROPPED TO 1265 x 451px
@@ -22,7 +21,7 @@ export default class AboutUs extends Component {
     render() {
         const squareObject = [
             {title: "vision \& mission", image: whitelogo, link: '/aboutus/missionvission', blackText: true},
-            {title: "vol 2", image: vol2, link: '/archives/volume2'},
+            {title: "vol 2", image: "https://i.imgur.com/sEqJQ1p.jpg", link: '/archives/volume2'},
             {title: "", image: emptySquare, link: '/aboutus'},
             {title: "", image: emptySquare, link: '/aboutus'},
         ]

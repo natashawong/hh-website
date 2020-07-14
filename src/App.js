@@ -14,8 +14,6 @@ import Vol2 from './Pages/IndPages/Volume2';
 import Partner from './Pages/IndPages/Partner';
 import Contact from './Pages/IndPages/Contact';
 
-// TO DO: add a NoMatch page for errors
-
 function App() {
   return (
       <Switch>

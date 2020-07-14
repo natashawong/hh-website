@@ -19,7 +19,7 @@ import Contact from './Pages/IndPages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename={"hh-website"}>
       <Switch>
         {/* About Us */}
         <Route exact path='/aboutus' component={AboutUs}/>

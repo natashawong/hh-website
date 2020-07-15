@@ -16,6 +16,9 @@ export default class Home extends Component {
             {image: "https://i.imgur.com/DCVSZhv.jpg", title: "what do we do when the rug is pulled out from underneath us?", link: '/read'},
             {image: "https://i.imgur.com/EvsaQXs.jpg", title: "love in the time of coronavirus", link: '/read'},
             {image: "https://i.imgur.com/UfmdehE.png", title: "queerness and christianity", link: '/read'},
+        ]
+
+        const rowTwo = [
             {image: "https://i.imgur.com/mMSEWHd.jpg", title: "launch symposium", link: '/happenings'},
             {image: "https://i.imgur.com/sEqJQ1p.jpg", title: "read volume 2", link: '/archives'},
             {image: "https://i.imgur.com/BFLl0yO.png", title: "join hearhere", link: '/contact', blackText: true},
@@ -33,6 +36,7 @@ export default class Home extends Component {
             </div>
             <div style={{padding: SPACING.SPACING_MEDIUM}}/>
             <ContentGrid squareObject={rowOne}/>
+            <ContentGrid squareObject={rowTwo}/>
             <div style={{padding: SPACING.SPACING_LARGE}}/>
             </div>
 

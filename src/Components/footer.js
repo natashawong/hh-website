@@ -14,7 +14,7 @@ class Footer extends Component {
             <a href="https://www.facebook.com/hearherejournal/">facebook</a>
             <a href="https://www.instagram.com/hearhere.journal/?hl=en">instagram</a>
             <a href="https://medium.com/@hearhere.journal">medium</a>
-            <a style={{border: "1px solid white"}}>donate</a>
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=276UDQ8NJSFLU&source=url" style={{border: "1px solid white"}}>donate</a>
           </span>
         </span>
         </div>

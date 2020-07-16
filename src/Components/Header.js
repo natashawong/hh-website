@@ -20,7 +20,6 @@ export default class Header extends Component {
                     <Link to='/archives' id="link" style={{color: this.props.pageHeader ? "white" : "black"}}>archives</Link>
                     <Link to='/read' id="link" style={{color: this.props.pageHeader ? "white" : "black"}}>read</Link>
                     <Link to='/happenings' id="link" style={{color: this.props.pageHeader ? "white" : "black"}}>what's happening</Link>
-                    <Link to='/partner' id="link" style={{color: this.props.pageHeader ? "white" : "black"}}>partner</Link>
                     <Link to='/contact' id="link" style={{color: this.props.pageHeader ? "white" : "black"}}>contact</Link>
                 </span>
 

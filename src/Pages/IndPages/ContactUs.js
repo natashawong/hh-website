@@ -3,7 +3,7 @@ import Header from '../../Components/Header';
 import Footer from '../../Components/footer';
 import {SPACING} from '../../Enums/Enums';
 
-export default class Contact extends Component {
+export default class ContactUs extends Component {
     componentDidMount() {
         window.scrollTo(0,0);
     }

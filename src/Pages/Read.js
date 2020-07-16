@@ -1,8 +1,11 @@
 import React, {Component} from 'react';
-import Header from '../../Components/Header';
-import Footer from '../../Components/footer';
-import {SPACING} from '../../Enums/Enums';
-import ContentGrid from '../../Components/contentGrid';
+import Header from '../Components/Header';
+import Footer from '../Components/footer';
+
+import {SPACING} from '../Enums/Enums';
+import { COLORS } from '../Enums/Enums';
+import pinkSkies from '../Assets/pinkskies.png';
+import ContentGrid from '../Components/contentGrid';
 
 export default class Read extends Component {
     componentDidMount() {
@@ -20,7 +23,7 @@ export default class Read extends Component {
             {image: "https://i.imgur.com/iYbfpwE.jpg", title: "one community, one grading policy: in support of universal P/NRP/I grading", externalLink: 'https://medium.com/@hearhere.journal/one-community-one-grading-policy-in-support-of-universal-p-nrp-i-grading-9c2190c8506b'},
             {image: "https://i.imgur.com/puDWe9U.png", title: "the meaning behind our memes", blackBorder: true, externalLink: 'https://medium.com/@hearhere.journal/the-meaning-behind-our-memes-54bf88a069d2'},
             {image: "https://i.imgur.com/hi8UcwO.jpg", title: "motivation drought", externalLink: 'https://medium.com/@hearhere.journal/motivation-drought-c3d8ff28a7a4'},
-            {image: "https://i.imgur.com/7KEkvqY.jpg", title: "think about such things", externalLink: 'https://medium.com/@hearhere.journal/think-about-such-things-c6a3b841da38'},
+            {image: "https://i.imgur.com/AYznNH9.jpg", title: "think about such things", externalLink: 'https://medium.com/@hearhere.journal/think-about-such-things-c6a3b841da38'},
         ]
 
         const rowThree = [
@@ -31,7 +34,14 @@ export default class Read extends Component {
         return (
             <div>
             <div style={{padding: SPACING.PAGE_SPACE}}>
-                <Header pageHeader={true} pageHeaderTitle={"READ"} pageHeaderSubtitle={"What do we do when the rug is pulled out from underneath us?"}/>
+                <link rel="stylesheet" href="https://use.typekit.net/umq8csv.css"></link>
+                <Header pageHeader={true}/>
+                
+                <div className = "container" style={{backgroundColor: COLORS.LIGHT_GREEN}}>
+                    <img className="img" src={pinkSkies} alt={"pink skies"} />
+                    <p className="bigText">READ ARTICLES</p>
+                </div>
+
                 <div style={{padding: SPACING.SPACING_MEDIUM}}/>
                 <ContentGrid squareObject={rowOne}/>
                 <ContentGrid squareObject={rowTwo}/>

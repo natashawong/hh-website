@@ -20,7 +20,7 @@ export default class AboutUs extends Component {
     }
     render() {
         const squareObject = [
-            {title: "vision \& mission", image: whitelogo, link: '/aboutus/missionvission', blackText: true},
+            {title: "vision \& mission", image: whitelogo, link: '/aboutus/missionvission', blackBorder: true},
             {title: "vol 2", image: "https://i.imgur.com/sEqJQ1p.jpg", link: '/archives/volume2'},
             {title: "", image: emptySquare, link: '/aboutus'},
             {title: "", image: emptySquare, link: '/aboutus'},

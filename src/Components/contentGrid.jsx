@@ -15,16 +15,16 @@ class ContentGrid extends Component {
           <div className="gridContainer">
             {square.externalLink ? 
               <a href={square.externalLink} style={{textDecoration: "none", color: "black"}}>
-              <img src={square.image} alt={"option"} className="thumbnail" style={{border: square.blackText ? "1px solid black" : null}}/>
-              <p id="title" style={{color: square.blackText ? "black" : "white"}}>{square.title} 
-              {square.title == "" ? null : <img src={square.blackText ? arrowRightBlack : arrowRightWhite} style={{width: 10, paddingLeft: 5}}/>}
+              <img src={square.image} alt={"option"} className="thumbnail" style={{border: square.blackBorder ? "1px solid black" : null}}/>
+              <p id="title">{square.title} 
+              {square.title == "" ? null : <img src={arrowRightBlack} style={{width: 10, paddingLeft: 5}}/>}
               </p>
               </a>
             :
               <Link to={square.link} style={{textDecoration: "none", color: "black"}}>
-              <img src={square.image} alt={"option"} className="thumbnail" style={{border: square.blackText ? "1px solid black" : null}}/>
-              <p id="title" style={{color: square.blackText ? "black" : "white"}}>{square.title} 
-              {square.title == "" ? null : <img src={square.blackText ? arrowRightBlack : arrowRightWhite} style={{width: 10, paddingLeft: 5}}/>}
+              <img src={square.image} alt={"option"} className="thumbnail" style={{border: square.blackBorder ? "1px solid black" : null}}/>
+              <p id="title">{square.title} 
+              {square.title == "" ? null : <img src={arrowRightBlack} style={{width: 10, paddingLeft: 5}}/>}
               </p>
               </Link>
             }

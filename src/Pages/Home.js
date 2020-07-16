@@ -12,17 +12,17 @@ export default class Home extends Component {
     }
     render() {
         const rowOne = [
-            {image: "https://i.imgur.com/482Jxh9.jpg", title: "meet our staff", link: '/aboutus'},
-            {image: "https://i.imgur.com/DCVSZhv.jpg", title: "what do we do when the rug is pulled out from underneath us?", link: '/read'},
-            {image: "https://i.imgur.com/EvsaQXs.jpg", title: "love in the time of coronavirus", link: '/read'},
-            {image: "https://i.imgur.com/UfmdehE.png", title: "queerness and christianity", link: '/read'},
+            {image: "https://i.imgur.com/Rr0bpau.jpg", title: "meet our staff", link: '/aboutus'},
+            {image: "https://i.imgur.com/8I2RigD.png", title: "what do we do when the rug is pulled out from underneath us?", link: '/read'},
+            {image: "https://i.imgur.com/EnsC8xk.jpg", title: "love in the time of coronavirus", link: '/read'},
+            {image: "https://i.imgur.com/0CpAJhD.png", title: "queerness and christianity", link: '/read'},
         ]
 
         const rowTwo = [
-            {image: "https://i.imgur.com/mMSEWHd.jpg", title: "launch symposium", link: '/happenings'},
-            {image: "https://i.imgur.com/sEqJQ1p.jpg", title: "read volume 2", link: '/archives'},
-            {image: "https://i.imgur.com/BFLl0yO.png", title: "join hearhere", link: '/contact', blackText: true},
-            {image: "https://i.imgur.com/GMUIaoD.png", title: "veritas forum", externalLink: 'http://www.veritas.org/', blackText: true},
+            {image: "https://i.imgur.com/j7wSnWI.jpg", title: "launch symposium", link: '/happenings'},
+            {image: "https://i.imgur.com/U7OhV4F.jpg", title: "read volume 2", link: '/archives'},
+            {image: "https://i.imgur.com/CGxafvw.png", title: "join hearhere", link: '/contact', blackBorder: true},
+            {image: "https://i.imgur.com/GMUIaoD.png", title: "veritas forum", externalLink: 'http://www.veritas.org/', blackBorder: true},
         ]
 
         return (

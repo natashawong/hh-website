@@ -20,7 +20,7 @@ class Footer extends Component {
         </div>
 
         <div id="creditText">
-          <p>Built by the hearhere web development team</p>
+          <p>built by the hearhere web development team</p>
         </div>
       </div>
     )

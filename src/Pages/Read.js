@@ -29,6 +29,7 @@ export default class Read extends Component {
         const rowThree = [
             {image: "https://i.imgur.com/tBvgdzN.png", title: "we must imagine ourseleves happy", blackBorder: true, externalLink: 'https://medium.com/@hearhere.journal/we-must-imagine-ourselves-happy-99574c2512d3'},
             {image: "https://i.imgur.com/tpqPQKM.jpg", title: "if God is good, why the virus?", externalLink: 'https://medium.com/@hearhere.journal/if-god-is-good-why-the-virus-c69a16f25e14'},
+            {image: "https://i.imgur.com/9KLNv4o.jpg", title: "The Time is Always Ripe to Do Right: hearhere’s Response to the BLM Movement", externalLink: 'https://medium.com/@hearhere.journal/the-time-is-always-ripe-to-do-right-hearheres-response-to-the-blm-movement-69c736919cff'},
         ]
 
         return (

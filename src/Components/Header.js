@@ -4,6 +4,7 @@ import logo from '../Assets/hearhere.png';
 import whiteLogo from '../Assets/whitehearhere.png';
 import { COLORS } from '../Enums/Enums';
 import {Link} from 'react-router-dom';
+import {DesktopBreakpoint, MobileBreakpoint} from '../Breakpoints';
 
 export default class Header extends Component {
     render() {
@@ -22,7 +23,6 @@ export default class Header extends Component {
                     <Link to='/happenings' id="link" style={{color: this.props.pageHeader ? "white" : "black"}}>what's happening</Link>
                     <Link to='/contact' id="link" style={{color: this.props.pageHeader ? "white" : "black"}}>contact</Link>
                 </span>
-
 
                 {
                     this.props.pageHeaderTitle && 

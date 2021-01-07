@@ -10,7 +10,7 @@ import './contentGrid.css';
 class ContentGrid extends Component {
   render() {
     return(
-      <div  className="contentGrid" style={{padding: SPACING.PAGE_SPACE}}>
+      <div  className="contentGrid" style={{padding: SPACING.PAGE_SPACE, paddingTop: 0}}>
         {this.props.squareObject.map(square => (
           <div className="gridContainer">
             {square.externalLink ? 

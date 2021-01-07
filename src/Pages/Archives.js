@@ -11,6 +11,7 @@ import { COLORS } from '../Enums/Enums';
 import pinkSkies from '../Assets/pinkskies.png';
 import whitelogo from '../Assets/whitelogo.png';
 import emptySquare from '../Assets/emptySquare.png';
+import launch from '../Assets/ppllaunch.jpeg';
 
 // NOTE: ALL SUBPAGE IMAGES ARE CROPPED TO 1265 x 451px
 
@@ -21,8 +22,8 @@ export default class Archives extends Component {
     render() {
         const squareObject = [
             {title: "vision \& mission", image: whitelogo, link: '/aboutus/missionvission', blackBorder: true},
-            {title: "vol 2", image: "https://i.imgur.com/sEqJQ1p.jpg", link: '/archives/volume2'},
-            {title: "", image: emptySquare, link: '/aboutus'},
+            {title: "vol 2: harmony launch symposium", image: launch, link: '/archives/volume2'},
+            {title: "vol 2: harmony", image: "https://i.imgur.com/sEqJQ1p.jpg", link: 'https://drive.google.com/file/d/10OLEOgZjtFHKuQFuPI3dr-EiUGyQztIf/view?usp=sharing'},
             {title: "", image: emptySquare, link: '/aboutus'},
         ]
         return (

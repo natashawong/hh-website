@@ -12,8 +12,7 @@ import MissionVision from './Pages/IndPages/MissionVision';
 import Read from './Pages/Read';
 import Vol2 from './Pages/IndPages/Volume2';
 import Partner from './Pages/IndPages/Partner';
-import ContactUs from './Pages/IndPages/ContactUs';
-import Contact from './Pages/Contact';
+import ContactUs from './Pages/ContactUs';
 import Vol3LS from './Pages/IndPages/Vol3LS';
 
 function App() {
@@ -38,9 +37,7 @@ function App() {
         <Route exact path='/read' component={Read}/>
 
         {/* Contact */}
-        <Route exact path='/contact' component={Contact}/>
-        {/* > contact us */}
-        <Route exact path='/contact/contactus' component={ContactUs}/>
+        <Route exact path='/contact' component={ContactUs}/>
 
         <Route exact path='/' component={Home}/>
         <Route path='*' component={Home}/>

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Header from '../../Components/Header';
-import Footer from '../../Components/footer';
-import {SPACING} from '../../Enums/Enums';
+import Header from '../Components/Header';
+import Footer from '../Components/footer';
+import {SPACING} from '../Enums/Enums';
 import { Formik, Field, Form } from 'formik';
 import './ContactUs.css';
 const Airtable = require('airtable');

@@ -6,11 +6,10 @@ import { COLORS } from '../Enums/Enums';
 
 import Header from '../Components/Header';
 import Footer from '../Components/footer';
-import ContentGrid from '../Components/contentGrid';
+import {ContentGrid} from '../Components/contentGrid';
 
 import whitelogo from '../Assets/whitelogo.png';
 import groupPic from '../Assets/groupPic.png';
-import staff from '../Assets/temp.jpeg';
 import emptySquare from '../Assets/emptySquare.png';
 
 // NOTE: ALL SUBPAGE IMAGES ARE CROPPED TO 1265 x 451px
@@ -21,8 +20,8 @@ export default class AboutUs extends Component {
     }
     render() {
         const squareObject = [
-            {image: whitelogo, title: "vision \& mission", link: '/aboutus/missionvission', blackText: true},
-            {title: "meet our staff", image: staff, link: '/aboutus'},
+            {image: whitelogo, title: "vision \& mission", link: '/aboutus/missionvission', blackBorder: true},
+            {title: "meet our staff", image: "https://i.imgur.com/Rr0bpau.jpg", link: '/aboutus/members'},
             {title: "", image: emptySquare, link: '/aboutus'},
             {title: "", image: emptySquare, link: '/aboutus'},
         ]

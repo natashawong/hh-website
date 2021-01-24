@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import './Happenings.css';
+import './Vol3LS.css';
 
 import Header from '../../Components/Header';
 import Footer from '../../Components/footer';
 import {SPACING} from '../../Enums/Enums';
 
-export default class Happenings extends Component {
+export default class Vol2LS extends Component {
     componentDidMount() {
         window.scrollTo(0,0);
     }

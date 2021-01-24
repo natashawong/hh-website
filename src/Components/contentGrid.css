@@ -12,13 +12,23 @@
 
 .gridContainer {
     position: relative;
-    padding: 30px;
+    padding: 50px 2% 50px 2%;
 }
 
 #title {
+    color: black;
     z-index: 2; 
     position: absolute;
-    bottom: 50px;
-    left: 50px;
-    margin: 0px 40px 0px 0px;
+    font-weight: bold;
+}
+
+.imageContainer {
+    position: relative;
+    padding: 50px 2% 30% 2%;
+}
+
+#text {
+    color: black;
+    z-index: 2;
+    position: absolute;
 }

@@ -4,19 +4,7 @@ import Footer from '../Components/footer';
 import { SPACING } from '../Enums/Enums';
 import arrowDown from '../Assets/arrowDown.png';
 import './Home.css';
-import ContentGrid from '../Components/contentGrid';
-
-// Images
-import staff from '../Assets/temp.jpeg';
-import skyrug from '../Assets/skyrug.png';
-import hawaiilove from '../Assets/hawaiilove.jpeg';
-import qanc from '../Assets/qandc.png';
-
-import ppllaunch from '../Assets/ppllaunch.jpeg';
-import vol2 from '../Assets/vol2.jpeg';
-import whitelogo from '../Assets/whitelogo.png';
-import veritas from '../Assets/veritas.png';
-
+import {ContentGrid} from '../Components/contentGrid';
 
 export default class Home extends Component {
     componentDidMount() {
@@ -24,14 +12,17 @@ export default class Home extends Component {
     }
     render() {
         const rowOne = [
-            {image: staff, title: "meet our staff", link: '/aboutus'},
-            {image: skyrug, title: "what do we do when the rug is pulled out from underneath us?", link: '/read'},
-            {image: hawaiilove, title: "love in the time of coronavirus", link: '/read'},
-            {image: qanc, title: "queerness and christianity", link: '/read'},
-            {image: ppllaunch, title: "launch symposium", link: '/happenings'},
-            {image: vol2, title: "read volume 2", link: '/archives'},
-            {image: whitelogo, title: "join hearhere", link: '/contact', blackText: true},
-            {image: veritas, title: "veritas forum", externalLink: 'http://www.veritas.org/', blackText: true},
+            {image: "https://i.imgur.com/Rr0bpau.jpg", title: "meet our staff", link: '/aboutus'},
+            {image: "https://i.imgur.com/8I2RigD.png", title: "what do we do when the rug is pulled out from underneath us?", link: '/read'},
+            {image: "https://i.imgur.com/EnsC8xk.jpg", title: "love in the time of coronavirus", link: '/read'},
+            {image: "https://i.imgur.com/0CpAJhD.png", title: "queerness and christianity", link: '/read'},
+        ]
+
+        const rowTwo = [
+            {image: "https://i.imgur.com/j7wSnWI.jpg", title: "launch symposium", link: '/happenings'},
+            {image: "https://i.imgur.com/U7OhV4F.jpg", title: "read volume 2", link: '/archives'},
+            {image: "https://i.imgur.com/CGxafvw.png", title: "join hearhere", link: '/contact', blackBorder: true},
+            {image: "https://i.imgur.com/GMUIaoD.png", title: "veritas forum", externalLink: 'http://www.veritas.org/', blackBorder: true},
         ]
 
         return (
@@ -45,6 +36,7 @@ export default class Home extends Component {
             </div>
             <div style={{padding: SPACING.SPACING_MEDIUM}}/>
             <ContentGrid squareObject={rowOne}/>
+            <ContentGrid squareObject={rowTwo}/>
             <div style={{padding: SPACING.SPACING_LARGE}}/>
             </div>
 

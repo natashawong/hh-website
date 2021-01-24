@@ -1,0 +1,38 @@
+.formInputs {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputFieldContainer {
+    margin-bottom: 10px;
+}
+
+.inputField {
+    padding: 20px;
+    width: 400px;
+}
+
+.inputFieldLarge {
+    height: 200px;
+    width: 800px;
+}
+
+.submitContainer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #B5C8BD;
+    width: 100px;
+}
+
+.submitContainer button {
+    border: none;
+    cursor: pointer;
+    font-size: x-large;
+    background-color: #B5C8BD;
+    color: white;
+    outline: none;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+}

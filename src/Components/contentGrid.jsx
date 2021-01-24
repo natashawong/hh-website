@@ -7,7 +7,7 @@ import arrowRightBlack from '../Assets/arrowRight.png';
 import { SPACING } from "../Enums/Enums";
 import './contentGrid.css';
 
-class ContentGrid extends Component {
+export class ContentGrid extends Component {
   render() {
     return(
       <div  className="contentGrid" style={{padding: SPACING.PAGE_SPACE, paddingTop: 0}}>
@@ -39,4 +39,22 @@ ContentGrid.propTypes = {
   squareObject: PropTypes.array.isRequired,
 }
 
-export default ContentGrid;
+export class MemberGrid extends Component {
+  render() {
+    return(
+      <div  className="contentGrid" style={{padding: SPACING.PAGE_SPACE, paddingTop: 0}}>
+        {this.props.squareObject.map((square, i) => (
+          <div key={i} className="imageContainer"> {/* NOTE: funky square.image[0].url because of airtable api response*/}
+              <img src={square.image[0].url} alt={"option"} className="thumbnail" style={{border: square.blackBorder ? "1px solid black" : null}}/>
+              <p id="text">{square.bio}</p>
+          </div>
+        ))}
+      </div>
+    )
+  }
+}
+
+MemberGrid.propTypes = {
+  squareObject: PropTypes.array.isRequired,
+}
+

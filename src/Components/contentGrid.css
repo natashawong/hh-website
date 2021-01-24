@@ -21,3 +21,14 @@
     position: absolute;
     font-weight: bold;
 }
+
+.imageContainer {
+    position: relative;
+    padding: 50px 2% 30% 2%;
+}
+
+#text {
+    color: black;
+    z-index: 2;
+    position: absolute;
+}

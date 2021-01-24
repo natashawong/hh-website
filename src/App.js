@@ -9,6 +9,7 @@ import Home from './Pages/Home';
 import Happenings from './Pages/Happenings';
 import Archives from './Pages/Archives';
 import MissionVision from './Pages/IndPages/MissionVision';
+import Members from './Pages/IndPages/Members';
 import Read from './Pages/Read';
 import Vol2 from './Pages/IndPages/Volume2';
 import Partner from './Pages/IndPages/Partner';
@@ -22,6 +23,8 @@ function App() {
         <Route exact path='/aboutus' component={AboutUs}/>
         {/* > mission&vission  */}
         <Route exact path='/aboutus/missionvission' component={MissionVision}/>
+        {/* > members  */}
+        <Route exact path='/aboutus/members' component={Members}/>
 
         {/* Archives */}
         <Route exact path='/archives' component={Archives}/>

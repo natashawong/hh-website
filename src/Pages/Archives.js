@@ -3,7 +3,7 @@ import './Subpage.css';
 
 import Header from '../Components/Header';
 import Footer from '../Components/footer';
-import ContentGrid from '../Components/contentGrid';
+import {ContentGrid} from '../Components/contentGrid';
 
 import { SPACING } from '../Enums/Enums';
 import { COLORS } from '../Enums/Enums';
@@ -23,7 +23,7 @@ export default class Archives extends Component {
         const squareObject = [
             {title: "vision \& mission", image: whitelogo, link: '/aboutus/missionvission', blackBorder: true},
             {title: "vol 2: harmony launch symposium", image: launch, link: '/archives/volume2'},
-            {title: "vol 2: harmony", image: "https://i.imgur.com/sEqJQ1p.jpg", link: 'https://drive.google.com/file/d/10OLEOgZjtFHKuQFuPI3dr-EiUGyQztIf/view?usp=sharing'},
+            {title: "vol 2: harmony", image: "https://i.imgur.com/sEqJQ1p.jpg", externalLink: 'https://drive.google.com/file/d/10OLEOgZjtFHKuQFuPI3dr-EiUGyQztIf/view?usp=sharing'},
             {title: "", image: emptySquare, link: '/aboutus'},
         ]
         return (

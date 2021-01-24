@@ -6,7 +6,7 @@ import { COLORS } from '../Enums/Enums';
 
 import Header from '../Components/Header';
 import Footer from '../Components/footer';
-import ContentGrid from '../Components/contentGrid';
+import {ContentGrid} from '../Components/contentGrid';
 
 import whitelogo from '../Assets/whitelogo.png';
 import groupPic from '../Assets/groupPic.png';
@@ -21,7 +21,7 @@ export default class AboutUs extends Component {
     render() {
         const squareObject = [
             {image: whitelogo, title: "vision \& mission", link: '/aboutus/missionvission', blackBorder: true},
-            {title: "meet our staff", image: "https://i.imgur.com/Rr0bpau.jpg", link: '/aboutus'},
+            {title: "meet our staff", image: "https://i.imgur.com/Rr0bpau.jpg", link: '/aboutus/members'},
             {title: "", image: emptySquare, link: '/aboutus'},
             {title: "", image: emptySquare, link: '/aboutus'},
         ]

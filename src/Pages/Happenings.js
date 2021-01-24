@@ -6,7 +6,7 @@ import { COLORS } from '../Enums/Enums';
 
 import Header from '../Components/Header';
 import Footer from '../Components/footer';
-import ContentGrid from '../Components/contentGrid';
+import {ContentGrid} from '../Components/contentGrid';
 
 import whitelogo from '../Assets/whitelogo.png';
 import groupPic from '../Assets/groupPic.png';

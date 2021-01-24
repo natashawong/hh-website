@@ -4,7 +4,7 @@ import Footer from '../Components/footer';
 import { SPACING } from '../Enums/Enums';
 import arrowDown from '../Assets/arrowDown.png';
 import './Home.css';
-import ContentGrid from '../Components/contentGrid';
+import {ContentGrid} from '../Components/contentGrid';
 
 export default class Home extends Component {
     componentDidMount() {

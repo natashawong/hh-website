@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5721bb00.chunk.css",
+    "main.js": "/static/js/main.98f24681.chunk.js",
+    "main.js.map": "/static/js/main.98f24681.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.22a2d4df.js",
+    "runtime-main.js.map": "/static/js/runtime-main.22a2d4df.js.map",
+    "static/js/2.b10e5ac3.chunk.js": "/static/js/2.b10e5ac3.chunk.js",
+    "static/js/2.b10e5ac3.chunk.js.map": "/static/js/2.b10e5ac3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dda0e63205fc88e3ca742aca54e8de05.js": "/precache-manifest.dda0e63205fc88e3ca742aca54e8de05.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5721bb00.chunk.css.map": "/static/css/main.5721bb00.chunk.css.map",
+    "static/js/2.b10e5ac3.chunk.js.LICENSE.txt": "/static/js/2.b10e5ac3.chunk.js.LICENSE.txt",
+    "static/media/greenbglogo.png": "/static/media/greenbglogo.5291c80a.png",
+    "static/media/groupPic.png": "/static/media/groupPic.ef066cb2.png",
+    "static/media/hearhere.png": "/static/media/hearhere.9d20dfd2.png",
+    "static/media/ls.jpg": "/static/media/ls.1737cf10.jpg",
+    "static/media/pinkskies.png": "/static/media/pinkskies.d53b1a2a.png",
+    "static/media/ppllaunch.jpeg": "/static/media/ppllaunch.b687faac.jpeg",
+    "static/media/whitelogo.png": "/static/media/whitelogo.c16dcde0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22a2d4df.js",
+    "static/js/2.b10e5ac3.chunk.js",
+    "static/css/main.5721bb00.chunk.css",
+    "static/js/main.98f24681.chunk.js"
+  ]
+}
